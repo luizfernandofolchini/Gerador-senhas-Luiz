@@ -118,6 +118,24 @@ label{
     cursor: pointer;
 }
 
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fraca{
+    width: 25%;
+    background-color: #e71b32;
+}
+
+
+
 
 
 
