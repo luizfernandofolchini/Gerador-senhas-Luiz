@@ -25,8 +25,10 @@ function aumentaTamanho(){
 
 const campoSenha = document.querySelector('#campo-senha');
 
+
 const letrasMaiuscula = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ'
 const letrasMinuscula = 'abcdefghijklmnopqrstuvwxyz'
+
 const numeros = '0123456789';
 const simbolo = '!@%$*¨'
 geraSenha();
@@ -34,7 +36,7 @@ geraSenha();
 function geraSenha() {
     let senha = '';
     for (let i=0; i<tamanhoSenha; i++){
-        let numeroAleatorio = Math.random()*letrasMaiusculas.lenth;
+        let numeroAleatorio = Math.random()*letrasMaiusculas.length;
         numeroAleatorio = Math.floor(numeroAleatorio);
         senha = senha + letrasMaiusculas[numeroAleatorio];
     }
